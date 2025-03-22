@@ -1,0 +1,14 @@
+import pandas as pd
+
+# Sample dataset
+data = {
+    "Temperature": [30, 35, 28, 40, 33, 38, 29],
+    "Humidity": [70, 85, 60, 90, 75, 80, 65],
+    "Coughing": [1, 0, 1, 1, 0, 1, 0],
+    "Diarrhea": [0, 1, 0, 1, 1, 0, 1],
+    "Lethargy": [1, 1, 0, 1, 0, 1, 0],
+    "Disease": ["Healthy", "Avian Flu", "Healthy", "Newcastle", "Healthy", "Newcastle", "Avian Flu"]
+}
+
+df = pd.DataFrame(data)
+print(df.head())
